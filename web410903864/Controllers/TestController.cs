@@ -26,6 +26,8 @@ namespace web410903864.Controllers
 
         public ActionResult HW3()
         {
+            ViewBag.Quit = "10";
+            ViewData["ab"] = 20;
             return View();
         }
     }
